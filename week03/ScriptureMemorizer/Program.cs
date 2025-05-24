@@ -20,7 +20,7 @@ class Program
         Console.WriteLine("Choose mode:");
         Console.WriteLine();
         Console.WriteLine("1 =  Memorize a Single scripture");
-        Console.WriteLine("2 = Memorize Multiple scriptures");
+        Console.WriteLine("2 =  Memorize Multiple scriptures");
         string mode = Console.ReadLine().Trim();
 
         if (mode == "1")

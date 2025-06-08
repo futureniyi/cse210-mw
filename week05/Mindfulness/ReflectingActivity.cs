@@ -35,7 +35,6 @@ public class ReflectingActivity : Activity
         DisplayStartingMessage();
 
         Random rand = new Random();
-        // To meet exceeds requirements: ensure no repeats until all used
         List<string> sessionQuestions = new List<string>(_questions);
 
         string prompt = _prompts[rand.Next(_prompts.Count)];
@@ -47,7 +46,6 @@ public class ReflectingActivity : Activity
         DateTime endTime = DateTime.Now.AddSeconds(_duration);
         while (DateTime.Now < endTime)
         {
-            // If out of questions, reset
             if (sessionQuestions.Count == 0)
                 sessionQuestions = new List<string>(_questions);
 

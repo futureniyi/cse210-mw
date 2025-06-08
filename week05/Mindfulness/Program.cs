@@ -31,7 +31,7 @@ class Program
             if (choice == "1")
             {
                 breathingCount++;
-                var activity = new BreathingActivity(
+                BreathingActivity activity = new BreathingActivity(
                     "Breathing",
                     "This activity will help you relax by guiding you through slow breathing.");
                 activity.Run();
@@ -40,7 +40,7 @@ class Program
             else if (choice == "2")
             {
                 reflectingCount++;
-                var activity = new ReflectingActivity(
+                ReflectingActivity activity = new ReflectingActivity(
                     "Reflecting",
                     "This activity will help you reflect on times in your life when you have shown strength and resilience.");
                 activity.Run();
@@ -49,7 +49,7 @@ class Program
             else if (choice == "3")
             {
                 listingCount++;
-                var activity = new ListingActivity(
+                ListingActivity activity = new ListingActivity(
                     "Listing",
                     "This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.");
                 activity.Run();
@@ -94,7 +94,7 @@ class Program
             }
             else
             {
-                foreach (var line in lines)
+                foreach (string line in lines)
                     Console.WriteLine(line);
             }
             Console.WriteLine("--- End of Log ---\n");

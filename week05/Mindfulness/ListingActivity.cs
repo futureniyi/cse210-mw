@@ -44,8 +44,10 @@ public class ListingActivity : Activity
         }
 
         Console.WriteLine($"\nYou listed {count} items!");
-        // Displaying all responses for more creativity
-        foreach (var resp in responses) Console.WriteLine("- " + resp);
+        foreach (string resp in responses)
+        {
+            Console.WriteLine("- " + resp);
+        }
         DisplayEndingMessage();
     }
 }

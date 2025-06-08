@@ -39,7 +39,6 @@ public class Activity
         ShowCountdown(2);
     }
 
-    // Classic countdown animation using backspace
     public void ShowCountdown(int seconds)
     {
         for (int i = seconds; i > 0; i--)
@@ -51,7 +50,6 @@ public class Activity
         Console.WriteLine();
     }
 
-    // Spinner animation using backspace
     public void ShowSpinner(int seconds)
     {
         string[] spinner = { "|", "/", "-", "\\" };

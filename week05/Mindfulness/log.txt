@@ -1,0 +1,9 @@
+2025-06-08 23:35:02	Breathing	5 seconds
+2025-06-08 23:35:40	Reflecting	10 seconds
+2025-06-08 23:36:18	Listing	10 seconds
+2025-06-08 23:40:07	Listing	10 seconds
+2025-06-08 23:47:12	Listing	5 seconds
+2025-06-08 23:47:33	Listing	5 seconds
+2025-06-08 23:50:31	Breathing	7 seconds
+2025-06-08 23:51:01	Reflecting	5 seconds
+2025-06-08 23:52:23	Listing	9 seconds
